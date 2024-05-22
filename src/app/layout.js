@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import Scroll from './utils/scrollToTop';
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -11,7 +13,25 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='h-screen'>
+          <div className="gradient">
+            <div className="flex w-full justify-center">
+                <h1 className='text-8xl mt-30vh title-fly-in'>THE CONTEMPLATIVE CAVALIER</h1>
+            </div>
+            <div className='flex w-full justify-center gap-32 mt-16 text-2xl '>
+              <Link className="link-fade-in" href="/#About">About</Link>
+              <Link className="link-fade-in" href="/Issues#Issues">Issues</Link>
+              <Link className="link-fade-in" href="/Submit#Submit">Submit</Link>
+              <Link className="link-fade-in" href="/Contact#Contact">Contact</Link>
+            </div>
+          </div>
+        </div>
+        <div className="flex mx-15p h-[75vh]">
+          {children}
+        </div>
+        <Scroll />
+      </body>
     </html>
   );
 }
