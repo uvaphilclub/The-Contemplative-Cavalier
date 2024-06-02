@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Issues | The Contemplative Cavalier",
+    description: "Read the Contemplative Cavalier",
+  };
+
 export default function Page(){
     return (
         <div className="ml-10p sm:ml-15p h-[90vh] sm:h-[75vh]" id="Issues">

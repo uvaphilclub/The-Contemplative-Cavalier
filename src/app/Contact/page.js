@@ -28,6 +28,11 @@ async function getData(){
     return res.json()
 }
 
+export const metadata = {
+    title: "Contact | The Contemplative Cavalier",
+    description: "Get in touch with the Contemplative Cavalier",
+  };
+
 export default async function Page(){
     const response = await getData();
     // Check if response.data exists before accessing profileS

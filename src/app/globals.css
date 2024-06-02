@@ -7,6 +7,7 @@
 html {
 --scroll-behavior: smooth!important;
 scroll-behavior: smooth!important;
+background: rgb(254,245,240);
 }
 
 #about, #submit, #Issues, #Contact{

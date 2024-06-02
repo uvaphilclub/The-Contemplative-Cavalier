@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "The Contemplative Cavalier",
+  description: "The website of the Contemplative Cavalier",
+};
+
+
 export default function Home() {
   return (
     <div id="About" className="ml-10p sm:ml-15p relative mr-10p h-[90vh] sm:h-[75vh]">
