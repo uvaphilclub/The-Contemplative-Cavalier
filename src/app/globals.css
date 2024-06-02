@@ -10,8 +10,9 @@ scroll-behavior: smooth!important;
 background-color: rgb(249,200,184);
 }
 body{
-  background-color: white;
+  background-color: rgb(255,255,255);
 }
+
 #about, #submit, #Issues, #Contact{
   scroll-margin-top: 10vh;
 } 
