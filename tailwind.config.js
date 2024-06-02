@@ -14,8 +14,13 @@ module.exports = {
       },
       margin: {
         '30vh': '30vh',
+        '15vh': '15vh',
         '20p' : '20%',
         '15p' : '15%',
+        '5p' : '5%'
+      },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
       },
     },
   },

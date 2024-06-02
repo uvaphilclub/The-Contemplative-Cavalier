@@ -13,21 +13,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + 'font-mono overflow-x-hidden'}>
         <div className='h-screen'>
-          <div className="gradient">
-            <div className="flex w-full justify-center">
-                <h1 className='text-8xl mt-30vh title-fly-in'>THE CONTEMPLATIVE CAVALIER</h1>
-            </div>
-            <div className='flex w-full justify-center gap-32 mt-16 text-2xl '>
-              <Link className="link-fade-in" href="/#About">About</Link>
-              <Link className="link-fade-in" href="/Issues#Issues">Issues</Link>
-              <Link className="link-fade-in" href="/Submit#Submit">Submit</Link>
-              <Link className="link-fade-in" href="/Contact#Contact">Contact</Link>
-            </div>
+          <div className="flex justify-center">
+            <div className="gradient absolute"></div>
           </div>
+            <div className="flex justify-center">
+                <h1 className='text-4xl sm:text-6xl lg:text-8xl mt-15vh sm:mt-30vh text-center title-fly-in title-shadow'>THE CONTEMPLATIVE CAVALIER</h1>
+            </div>
+            <div className='flex flex-col sm:flex-row text-center justify-center gap-4 sm:gap-24 lg:gap-32 mt-16 text-lg sm:text-xl lg:text-3xl '>
+              <Link className="link-fade-in nav-shadow" href="/#About">About</Link>
+              <Link className="link-fade-in nav-shadow" href="/Issues#Issues">Issues</Link>
+              <Link className="link-fade-in nav-shadow" href="/Submit#Submit">Submit</Link>
+              <Link className="link-fade-in nav-shadow" href="/Contact#Contact">Contact</Link>
+            </div>
         </div>
-        <div className="flex mx-15p h-[75vh]">
+        <div className="flex ml-15p h-full sm:h-[75vh]">
           {children}
         </div>
         <Scroll />

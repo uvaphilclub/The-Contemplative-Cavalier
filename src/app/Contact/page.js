@@ -1,8 +1,52 @@
-export default function Page(){
+import Profile from "../utils/profile"
+
+async function getData(){
+    const res = await fetch('https://us-east-1-shared-usea1-02.cdn.hygraph.com/content/clwsef82n01n507w6yu53osh2/master',{ 
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            // Add any required headers, such as authorization headers if needed
+        },
+        body: JSON.stringify({
+            query: `
+                {
+                    profileS(orderBy: rank_ASC) {
+                        email
+                        name
+                        title
+                        profilePicture {
+                            url
+                        }
+                        rank
+                    }
+                }
+            `
+        }),
+        cache: 'no-store'
+    })
+    
+    return res.json()
+}
+
+export default async function Page(){
+    const response = await getData();
+    // Check if response.data exists before accessing profileS
+    if (response && response.data && Array.isArray(response.data.profileS)) {
+        const profileS = response.data.profileS;
     return (
-        <div id="Contact">
-            <h1 className="text-6xl">Contact</h1>
+        <div className="h-full sm:h-[75vh]" id="Contact">
+            <h1 className="text-4xl sm:text-6xl">Contact</h1>
+            <div className="flex flex-wrap my-16 sm:gap-x-8 gap-y-12 sm:gap-y-24">
+                {profileS.map(profile=>(
+                    <Profile key={profile.email}profile={profile}></Profile>
+                ))}
+            </div>
         </div>
-        
     )
+    }
+    else {
+        // Handle the case where the response or profileS is not in the expected format
+        console.error('Invalid response format:', response);
+        return null; // or handle the error gracefully
+    }
 }

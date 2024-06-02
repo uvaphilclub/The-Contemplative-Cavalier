@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,4 +47,77 @@ scroll-behavior: smooth!important;
   opacity: 0;
   animation: linkFadeInFromBottom 1.5s ease forwards;
   animation-delay: 1.5s;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: .75;
+  }
+}
+
+@keyframes pulse{
+  0%{
+    opacity: .75;
+  }
+  50%{
+    opacity: .4;
+  }
+  100%{
+    opacity: .75;
+  }
+}
+
+@keyframes gradient-change1{
+  0%{
+    --color1:rgb(242, 148, 75);
+    --color2:rgb(242, 110, 90);
+  }
+  50%{
+    --color1:rgb(242, 110, 90);
+    --color2:rgb(242, 148, 75);
+  }
+  100%{
+    --color1:rgb(242, 148, 75);
+    --color2:rgb(242, 110, 90);
+    
+  }
+}
+
+@property --color1 {
+  syntax: '<color>';
+  initial-value: rgb(242, 148, 75);
+  inherits: false;
+}
+
+@property --color2{
+  syntax: '<color>';
+  initial-value: rgb(242, 110, 90);
+  inherits: false;
+}
+
+.gradient {
+  --width: 1750px;
+  --height: 750px;
+  --size: 750px;
+  --speed: 30s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+  width: var(--width);
+  height: var(--height);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(var(--color1), var(--color2));
+  opacity: 0;
+  animation: fade-in 12s 3s, pulse 10s 15s infinite, gradient-change1 30s infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.title-shadow{
+  text-shadow: 0 0 0.2em #6e6d69;
+}
+
+.nav-shadow:hover{
+  text-shadow: 0 0 .2em #6e6d69;
 }
