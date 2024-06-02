@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div id="About" className="relative mr-15p h-[75vh]">
+    <div id="About" className="ml-15p relative mr-15p h-[90vh] sm:h-[75vh]">
       <h1 className="text-6xl">About</h1>
       <p className="mt-4">The Contemplative Cavalier is an undergraduate philosophy journal run by students at the University of Virginia</p>
       <p className="max-w-5xl text-xs mb-8 absolute bottom-0">Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, 

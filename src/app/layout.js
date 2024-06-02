@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
               <Link className="link-fade-in nav-shadow" href="/Contact#Contact">Contact</Link>
             </div>
         </div>
-        <div className="flex ml-15p h-full sm:h-[75vh]">
+        <div className="flex">
           {children}
         </div>
         <Scroll />

@@ -13,10 +13,12 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       margin: {
+        '90vh': '90vh',
         '30vh': '30vh',
         '15vh': '15vh',
         '20p' : '20%',
         '15p' : '15%',
+        '10p' : '10%',
         '5p' : '5%'
       },
       fontFamily: {

@@ -105,7 +105,7 @@ scroll-behavior: smooth!important;
   --speed: 30s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
-  width: var(--width);
+  width: 90%;
   height: var(--height);
   filter: blur(calc(var(--size) / 5));
   background-image: linear-gradient(var(--color1), var(--color2));
