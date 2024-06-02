@@ -13,7 +13,7 @@ body{
   background-color: rgb(255,255,255);
 }
 
-#about, #submit, #Issues, #Contact{
+#About, #Submit, #Issues, #Contact{
   scroll-margin-top: 10vh;
 } 
 
