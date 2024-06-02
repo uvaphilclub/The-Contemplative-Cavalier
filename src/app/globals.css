@@ -9,6 +9,10 @@ html {
 scroll-behavior: smooth!important;
 }
 
+#about, #submit, #Issues, #Contact{
+  scroll-margin-top: 10vh;
+} 
+
 @keyframes titleFlyInFromBottom {
   0% {
     transform: translateY(300%);

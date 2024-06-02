@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html className="bg-transparent" lang="en">
       <body className={inter.className + 'font-mono overflow-x-hidden'}>
         <div className='h-screen'>
           <div className="flex justify-center">
