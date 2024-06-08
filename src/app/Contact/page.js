@@ -1,4 +1,4 @@
-import Profile from "../utils/profile"
+import Profile from "../components/profile"
 
 async function getData(){
     const res = await fetch('https://us-east-1-shared-usea1-02.cdn.hygraph.com/content/clwsef82n01n507w6yu53osh2/master',{ 

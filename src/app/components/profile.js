@@ -9,7 +9,7 @@ export default function Profile({profile}){
             <div className="ml-6 sm:mr-4">
                 <h1 className="text-xl sm:text-2xl mt-2 sm:mt-6 whitespace-nowrap">{profile.title}</h1>
                 <p className="mt-1 text-sm">{profile.name}</p>
-                <a className="text-sm" href={profile.email}>{profile.email}</a>
+                <a className="text-sm" href={"mailto: " + profile.email}>{profile.email}</a>
             </div>
         </div>
     )

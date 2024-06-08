@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Scroll from './utils/scrollToTop';
+import Scroll from './components/scrollToTop';
 import { Inter } from "next/font/google";
 import "./globals.css";
 
