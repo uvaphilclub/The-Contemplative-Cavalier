@@ -16,9 +16,9 @@ export default function Home() {
       <p className="mt-4">Follow us on instagram! <a className="underline" href="https://www.instagram.com/thecontemplativecav/?hl=en">@thecontemplativecav</a></p>
       <h1 className="text-4xl sm:text-5xl mt-24">Also visit</h1>
       <h2 className="text-2xl sm:text-3xl mt-4">The Corcoran Department of Philosophy</h2>
-      <p className="mt-2">Learn about UVA's philosophy department at <span><a className="underline" href="https://philosophy.virginia.edu/">https://philosophy.virginia.edu/</a></span></p>
+      <p className="mt-2">Learn about UVA&apos;s philosophy department at <span><a className="underline" href="https://philosophy.virginia.edu/">https://philosophy.virginia.edu/</a></span></p>
       <h2 className="text-2xl sm:text-3xl mt-8">The Philosophy Club at UVA</h2>
-      <p className="mt-2">UVA's premier gathering of undergraduates both casually and formally interested in philsophy.</p>
+      <p className="mt-2">UVA&apos;s premier gathering of undergraduates both casually and formally interested in philsophy.</p>
       <p>Learn more at <a className="underline" href="https://uvaphilclub.github.io">https://uvaphilclub.github.io</a></p>
       <p className="text-xs mt-24 mb-8">Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, 
           the organization is not a part of or an agency of the University. It is a separate and independent organization which is responsible for and manages its own activities and affairs. 
