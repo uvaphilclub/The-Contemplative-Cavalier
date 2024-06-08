@@ -71,7 +71,7 @@ body{
     opacity: .75;
   }
   50%{
-    opacity: .4;
+    opacity: .1;
   }
   100%{
     opacity: .75;
@@ -118,7 +118,7 @@ body{
   filter: blur(calc(var(--size) / 5));
   background-image: linear-gradient(var(--color1), var(--color2));
   opacity: 0;
-  animation: fade-in 12s 3s, pulse 10s 15s infinite, gradient-change1 30s infinite;
+  animation: fade-in 12s 3s, pulse 14s 15s infinite, gradient-change1 30s infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 

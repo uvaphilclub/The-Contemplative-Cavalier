@@ -1,6 +1,11 @@
 import Profile from "../components/profile"
 
-async function getData(){
+export const metadata = {
+    title: "Contact | The Contemplative Cavalier",
+    description: "Get in touch with the Contemplative Cavalier",
+  };
+
+    async function getData(){
     const res = await fetch('https://us-east-1-shared-usea1-02.cdn.hygraph.com/content/clwsef82n01n507w6yu53osh2/master',{ 
         method: 'POST',
         headers: {
@@ -24,18 +29,12 @@ async function getData(){
         }),
         cache: 'no-store'
     })
-    
+
     return res.json()
 }
 
-export const metadata = {
-    title: "Contact | The Contemplative Cavalier",
-    description: "Get in touch with the Contemplative Cavalier",
-  };
-
 export default async function Page(){
     const response = await getData();
-    // Check if response.data exists before accessing profileS
     if (response && response.data && Array.isArray(response.data.profileS)) {
         const profileS = response.data.profileS;
     return (
