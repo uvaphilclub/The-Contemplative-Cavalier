@@ -38,7 +38,7 @@ export default async function Page(){
     if (response && response.data && Array.isArray(response.data.profileS)) {
         const profileS = response.data.profileS;
     return (
-        <div className="ml-10p sm:ml-15p h-full sm:h-[75vh]" id="Contact">
+        <div className="ml-10p sm:ml-15p h-full" id="Contact">
             <h1 className="text-4xl sm:text-6xl">Contact</h1>
             <div className="flex flex-wrap mt-8 mb-16 sm:gap-x-8 gap-y-8 sm:gap-y-24">
                 {profileS.map(profile=>(
