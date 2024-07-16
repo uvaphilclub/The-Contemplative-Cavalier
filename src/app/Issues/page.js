@@ -44,7 +44,7 @@ export default async function Page(){
             <div>
                 <h1 className="text-4xl sm:text-6xl">Issues</h1>
                 <div className="py-8">
-                    <h1 className="text-4xl">First Edition</h1>
+                    <h1 className="text-4xl">First Issue</h1>
                     <div className="flex flex-wrap justify-center sm:justify-normal gap-x-36 gap-y-8 mr-10p sm:mr-0 mt-8 mb-8">
                         <div className="flex items-center sm:ml-24 h-96 w-64 bg-gray-100">
                             <p className="text-3xl text-center">This is the hard coded example</p>

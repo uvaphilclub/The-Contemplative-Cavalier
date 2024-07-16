@@ -18,7 +18,7 @@ export default function Page(){
             <a className="block max-w-xl mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLSd9T_ZSNdGw-ADtq-GzRU3LM36RqNEG4nFTr7G-133N28AFhQ/viewform"><div className="bg-gray-600 hover:bg-gray-500 max-w-xl mt-8 py-4 rounded-lg">
                 <h1 className="text-2xl sm:text-3xl text-center text-white">Submit to the Google Form here</h1>
             </div></a>
-             <h1 className="mt-12 text-2xl sm:text-4xl">Policies of Copy Right</h1>
+             <h1 className="mt-12 text-2xl sm:text-4xl">Policies of Copyright</h1>
              <p className="mt-4">This journal reserves the right to republish any works submitted to the journal. Submissions must not have been published elsewhere prior to submission at The Contemplative Cavalier. However, authors may publish their work elsewhere after the issue of The Contemplative Cavelier containing this work has been published. Authors retain all other rights to their work. </p>
             </div>
            
