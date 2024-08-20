@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://the-contemplative-cavalier.vercel.app/">
-    <img alt="The Contemplative Cavalier Logo" src="public/thumbnail_Contemplative Cav Full Logo.png"></img>
+    <img alt="The Contemplative Cavalier Logo" src="public/thumbnail_Contemplative Cav Full Logo.png" height="100"></img>
   </a>
 </p> 
 <h1 align="center"> 

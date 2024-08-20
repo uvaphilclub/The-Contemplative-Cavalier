@@ -5,7 +5,7 @@ export default function Issue({issue}){
         <div className="flex flex-wrap justify-center sm:justify-normal gap-x-36 gap-y-8 mr-10p sm:mr-0 mt-8 mb-8">
             <a href={issue.document.url}>
                 <div className="flex items-center sm:ml-24 h-96 w-64">
-                    <img src={issue.cover.url}></img>
+                    <img src={issue.cover.url} className="border-2 border-black"></img>
                 </div>
             </a>
             <div className="grid content-center text-xl">
