@@ -8,12 +8,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div id="About" className="ml-10p sm:ml-15p relative mr-10p">
+    <div id="About" className="ml-6 sm:ml-15p sm:mr-10p max-w-[calc(100vw-3rem)]">
       <div className="max-w-5xl">
       <h1 className="text-4xl sm:text-6xl">About</h1>
       <p className="mt-4">The Contemplative Cavalier is an undergraduate philosophy journal run by students at the University of Virginia.</p>
       <p>Our inaugural issue is accepting submissions from August 27th through September 15th. Find submission guidelines under the submit tab</p>
-      <p className="mt-4">Join the mailing list to receive The Contemplative Cavalier and other important updates: <a href="https://lists.virginia.edu/sympa/subscribe/contemplative.cav" className="underline">https://lists.virginia.edu/sympa/subscribe/contemplative.cav</a></p>
+      <p className="mt-4 break-words">Join the mailing list to receive The Contemplative Cavalier and other important updates: <a href="https://lists.virginia.edu/sympa/subscribe/contemplative.cav" className="underline">https://lists.virginia.edu/sympa/subscribe/contemplative.cav</a></p>
       <p className="mt-2">Follow us on instagram! @<a className="underline" href="https://www.instagram.com/thecontemplativecav/?hl=en">thecontemplativecav</a></p>
       <h1 className="text-4xl sm:text-5xl mt-24">Also visit</h1>
       <h2 className="text-2xl sm:text-3xl mt-4">The Corcoran Department of Philosophy</h2>

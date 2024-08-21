@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Page(){
     return (
-        <div className="ml-10p sm:ml-15p mr-5p sm:mr-15p" id="Submit">
+        <div className="mx-6 sm:mx-15p" id="Submit">
              <h1 className="text-4xl sm:text-6xl">Submit</h1>
              <h1 className="mt-6 text-2xl sm:text-4xl">Submission Requirements</h1>
              <div className="mt-4 max-w-5xl mb-24">

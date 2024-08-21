@@ -43,7 +43,7 @@ export default async function Page(){
     const response = await getData();
     const issues = response.data.issues;
     return (
-        <div className="ml-10p sm:ml-15p" id="Issues">
+        <div className="ml-10p sm:mx-15p" id="Issues">
             <div>
                 <h1 className="text-4xl sm:text-6xl">Issues</h1>
                 {issues.map((issue,index) => (
