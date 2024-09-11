@@ -12,7 +12,7 @@ export default function Home() {
       <div className="max-w-5xl">
       <h1 className="text-4xl sm:text-6xl">About</h1>
       <p className="mt-4">The Contemplative Cavalier is an undergraduate philosophy journal run by students at the University of Virginia.</p>
-      <p>Our inaugural issue is accepting submissions from August 27th through September 15th. Find submission guidelines under the submit tab</p>
+      <p>Our inaugural issue is accepting submissions from August 27th through September 30th. Find submission guidelines under the submit tab</p>
       <p className="mt-4 break-words">Join the mailing list to receive The Contemplative Cavalier and other important updates: <a href="https://lists.virginia.edu/sympa/subscribe/contemplative.cav" className="underline">https://lists.virginia.edu/sympa/subscribe/contemplative.cav</a></p>
       <p className="mt-2">Follow us on instagram! @<a className="underline" href="https://www.instagram.com/thecontemplativecav/?hl=en">thecontemplativecav</a></p>
       <h1 className="text-4xl sm:text-5xl mt-24">Also visit</h1>
