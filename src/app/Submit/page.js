@@ -9,7 +9,7 @@ export default function Page(){
              <h1 className="text-4xl sm:text-6xl">Submit</h1>
              <h1 className="mt-6 text-2xl sm:text-4xl">Submission Requirements</h1>
              <div className="mt-4 max-w-5xl mb-24">
-             <p className="mt-4"><span className="font-bold">Eligibility: </span>Any undergraduate student at UVA is encouraged to submit a paper they've written to The Contemplative Cavalier. Any philosophy paper may be submitted.</p>
+             <p className="mt-4"><span className="font-bold">Eligibility: </span>Any undergraduate student at UVA is encouraged to submit a paper they&apos;ve written to The Contemplative Cavalier. Any philosophy paper may be submitted.</p>
             <p className="mt-4"><span className="font-bold">Length: </span>There is no word limit for entries; however, submissions will typically range from 1500 to 5000 (3-15 pages).</p>
             <p className="mt-4"><span className="font-bold">Number of submissions: </span>Please don&apos;t submit more than three papers per issue. Resubmissions of the same paper across different issues is allowed if there have been appropriate edits.</p> 
             <p className="mt-4 font-bold">For questions, contact Paco Amorrortu at <a href="mailto: zjz4uk@virginia.edu">zjz4uk@virginia.edu</a></p>
