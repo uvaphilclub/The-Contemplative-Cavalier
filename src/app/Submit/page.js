@@ -11,7 +11,7 @@ export default function Page(){
              <div className="mt-4 max-w-5xl mb-24">
              <p className="mt-4"><span className="font-bold">Eligibility: </span>Any undergraduate student at UVA is encouraged to submit a paper they've written to The Contemplative Cavalier. Any philosophy paper may be submitted.</p>
             <p className="mt-4"><span className="font-bold">Length: </span>There is no word limit for entries; however, submissions will typically range from 1500 to 5000 (3-15 pages).</p>
-            <p className="mt-4"><span className="font-bold">Number of submissions: </span>Please don't submit more than three papers per issue. Resubmissions of the same paper across different issues is allowed if there have been appropriate edits.</p> 
+            <p className="mt-4"><span className="font-bold">Number of submissions: </span>Please don&apos;t submit more than three papers per issue. Resubmissions of the same paper across different issues is allowed if there have been appropriate edits.</p> 
             <p className="mt-4 font-bold">For questions, contact Paco Amorrortu at <a href="mailto: zjz4uk@virginia.edu">zjz4uk@virginia.edu</a></p>
             <a className="block max-w-xl mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLSd9T_ZSNdGw-ADtq-GzRU3LM36RqNEG4nFTr7G-133N28AFhQ/viewform"><div className="bg-gray-600 hover:bg-gray-500 max-w-xl mt-8 py-4 rounded-lg">
                 <h1 className="text-2xl sm:text-3xl text-center text-white">Submit to the Google Form here</h1>
